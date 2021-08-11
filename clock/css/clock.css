@@ -1,0 +1,85 @@
+*{
+   margin:0;
+   padding:0;
+}
+.clear{
+	clear:both
+}
+#clock_container{
+	 height:20vw;
+	 margin:auto;
+	 /* margin-top:-3%; */
+	 /* border:1px solid red; */
+	 width:20vw;
+	 background:url(../img/CLOCK.png);
+	 background-repeat: no-repeat;
+	 background-size:100%;
+	 position:relative;
+	 border-radius:50%;
+	 box-shadow:3px 3px 50px black;
+	 z-index: 20px;
+}
+.container{
+	position:absolute;
+	top: 20%;
+	left:44%;
+}
+#hour, #minute, #second{
+   position: absolute;
+   background:black;
+   border-radius: 10px;
+   transform-origin: bottom;
+}
+.outer{
+	position:absolute;
+	width:100vw;
+	height:100vh;
+	border:1px solid red;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.outer img{
+	width:100vw;
+	height:100vh;
+}
+#hour{
+   width:2%;
+   height:20%;
+   top:30%;
+   left:50%;
+   opacity: 0.8;
+   border-top-left-radius:200px ;
+   border-top-right-radius:200px;
+}
+#minute{
+   width:1%;
+   height: 30%;
+   top:20%;
+   left:50.5%;
+   opacity: 0.8;
+   border-top-left-radius:100%;
+   border-top-right-radius:100%;
+}
+#second{
+  width: 0.5%;
+  height:40%;
+  top:10%;
+  left:51%;
+  opacity: 0.8;
+  border-top-left-radius:100%;
+   border-top-right-radius:100%;
+}
+.date{
+   width: 30%;
+   height:7%;
+   background-color:lavender;
+   color:black;
+   border-radius:15%;
+   position:absolute;
+   top: 32%;
+   left: 35%;
+   font-family:Verdana;
+    font-size:12px;
+    text-align: center;
+    font-weight: bolder;
+}
